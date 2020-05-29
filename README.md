@@ -1,3 +1,6 @@
+## Github地址
+https://github.com/akaziki/ios_picture_orientation_correction
+
 ## 问题
 ios13.4以下的系统版本调用相机拍照或者上传相机拍照的照片，会有图片翻转的问题。
 为了解决这个问题需要做下面两个步骤：
