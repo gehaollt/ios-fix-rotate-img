@@ -1,6 +1,6 @@
 {
   "name": "ios_picture_orientation_correction",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ios下input显示图片方向校正",
   "main": "index.js",
   "scripts": {
