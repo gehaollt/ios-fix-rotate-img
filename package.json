@@ -1,0 +1,14 @@
+{
+  "name": "ios_picture_orientation_correction",
+  "version": "1.0.0",
+  "description": "ios下input显示图片方向校正",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "akaziki",
+  "license": "ISC",
+  "dependencies": {
+    "exif-js": "^2.3.0"
+  }
+}
