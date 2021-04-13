@@ -1,5 +1,5 @@
 ## Github地址
-https://github.com/akaziki/ios_picture_orientation_correction
+由于之前那个大神写的插件不符合commonjs规范，所以我fork了一份
 
 ## 问题
 ios13.4以下的系统版本调用相机拍照或者上传相机拍照的照片，会有图片翻转的问题。
