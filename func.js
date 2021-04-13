@@ -1,13 +1,13 @@
 /**
  * 是否ios
  */
-const isIos = ()=> !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
+export const isIos = ()=> !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
 
 
 /**
  * 获取ios版本
  */
-function getIosVerStr(){
+export function getIosVerStr(){
     let userAgent = navigator.userAgent;
     let reg = /CPU iPhone OS (.*?) like Mac OS/i;
     let verStr = userAgent.match(reg)[1];
@@ -18,7 +18,7 @@ function getIosVerStr(){
  * 比较两个版本号大小
  * @param {*} ver
  */
-function isVerLessThan(ver,compareVer){
+export function isVerLessThan(ver,compareVer){
     let verArr = ver.split('.');
     let compareVerArr = compareVer.split('.');
     let minLength = Math.max(compareVerArr.length,verArr.length);
